@@ -3,10 +3,10 @@
 //Lab 8 - Exercise 1
 
 /*Exercise 1
-Create a new Driver class with a main method. In this method, do the following:
-1. Create an instance of an ArrayStack and a LinkedStack class.
-2. Push the following int's onto the two stacks: (1,7,3,4,9,2)
-3. Pop off all the elements from the stacks, displaying each int as it's removed
+Modify the main method of the Driver class from Lab #7. In this method, do the following:
+1. Create instances of an ArrayQ and a LinkedQueue
+2. Enqueue the following int's onto the two queues: (1,7,3,4,9,2)
+3. Dequeue all the elements from the queues, displaying each int as it's removed
 */
 
 package lab8Ex1;
@@ -52,14 +52,6 @@ public class Driver {
 		}
 		
 		System.out.println("\n");
-		
-		
-		/*
-		 * Exercise 2
-		 * Modify the LinkedStack class to include a new method called removeBottomHalf,
-		 * which removes the half of elements sitting at the bottom of the stack.
-		 * Test the method using the Driver program. What is the time complexity of this method?
-		 */
 		
 		//create new LinkedStack
 		LinkedStack linkedStack2 = new LinkedStack(); 
